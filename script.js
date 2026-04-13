@@ -1,17 +1,14 @@
-let = valorCompra = Number(prompt("Digite o valor de sua compra:"));
-let = valorCashback = valorCompra * 0.02;
-let = valorDesconto = valorCompra - valorCashback
-let = valorFinal = valorCompra - valorCashback
+let = altura = Number(prompt("Me diga sua altura em metros."));
 
-if (isNaN(valorCompra)) {
-    alert('Você não digitou um número!');
+if (isNaN(altura)) {
+    alert ("Você não digitou um número!");
 }
-else {
-
-    if (valorCompra>= 150) {
-        alert("Parabéns, você acabou de ganhar um desconto de 2%. O Valor de sua compra é de: R$" + valorFinal + ".");
+else{
+    if (altura >= 1.40) {
+        alert("Você tem altura suficiente, logo sua entrada no brinquedo é permitida.");
     }
     else {
-        alert("Este é o valor da sua compra: R$"+ valorCompra + ",00. Há um cahsback de 2% do valor de sua compra atual, resultando em: R$"+ valorCashback.toFixed(2) +".");
+        alert("Você não tem altura suficiente, logo sua entrada no brinquedo não é permitida.")
     }
+
 }
