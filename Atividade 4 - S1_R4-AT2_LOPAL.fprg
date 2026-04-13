@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Atividade 4 - S1_R4-AT2_LOPAL"/>
+        <attribute name="authors" value="I1HSA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-13 01:45:50 "/>
+        <attribute name="created" value="STFIU0E7RUNGUDUxMk4xMjYyODQ1OzIwMjYtMDQtMTM7IjAxOjM0OjQ3ICI7MjQxNA=="/>
+        <attribute name="edited" value="STFIU0E7RUNGUDUxMk4xMjYyODQ1OzIwMjYtMDQtMTM7IjAxOjQ1OjUwICI7MTsyNTE4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="senha, senhaCorreta" type="Integer" array="False" size=""/>
+            <output expression="&quot;Por favor, digite sua senha.&quot;" newline="True"/>
+            <input variable="senha"/>
+            <output expression="&quot;Por favor, confirme sua senha.&quot;" newline="True"/>
+            <input variable="senhaCorreta"/>
+            <if expression="senha == senhaCorreta">
+                <then>
+                    <output expression="&quot;Sua senha est&#225; correta. Acesso permitido.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Sua senha est&#225; incorreta. Acesso negado.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

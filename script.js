@@ -1,14 +1,9 @@
-let = altura = Number(prompt("Me diga sua altura em metros."));
+let = senha = prompt("Por favor, digite sua senha.");
+let = senhaCorreta = prompt("Por favor, confirme sua senha.");
 
-if (isNaN(altura)) {
-    alert ("Você não digitou um número!");
+if (senha == senhaCorreta) {
+    alert("Sua senha está correta. Acesso permitido.");
 }
 else{
-    if (altura >= 1.40) {
-        alert("Você tem altura suficiente, logo sua entrada no brinquedo é permitida.");
-    }
-    else {
-        alert("Você não tem altura suficiente, logo sua entrada no brinquedo não é permitida.")
-    }
-
+    alert("Sua senha está incorreta. Acesso negado.");
 }
