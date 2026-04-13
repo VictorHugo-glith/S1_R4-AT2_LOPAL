@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Atividade 1 - S1_R4-AT2_LOPAL"/>
+        <attribute name="authors" value="I1HSA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-13 12:51:44 "/>
+        <attribute name="created" value="STFIU0E7RUNGUDUxMk4xMjYyODQ1OzIwMjYtMDQtMTM7IjEyOjQ4OjI3ICI7MjQxOQ=="/>
+        <attribute name="edited" value="STFIU0E7RUNGUDUxMk4xMjYyODQ1OzIwMjYtMDQtMTM7IjEyOjUxOjQ0ICI7MTsyNTIw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero e eu direi se &#233; par ou impar:&quot;" newline="True"/>
+            <input variable="numero"/>
+            <if expression="numero % 2 == 0">
+                <then>
+                    <output expression="&quot;Seu n&#250;mero &#233; par.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Seu n&#250;mero &#233; impar.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
